@@ -134,12 +134,13 @@ public class Concessionaria {
       }
    }else if (dadoInserido <= 7) {
       System.out.println(veiculo.get(dadoInserido - 1));
-      System.out.println("Fim do programa! \n");
    }else if (dadoInserido > 7){ // Quando removo o if dessa linha, o comando apresenta erro
-      System.out.printf("Número inesperado. Por favor, tente novamente! \n" + "Fim do programa! \n");
+      System.out.printf("Número inesperado. Por favor, tente novamente! \n");
    }
    entradaDados.close();
+   System.out.println("Fim do programa! \n");
    }
 }
    
+
 
